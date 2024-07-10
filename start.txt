@@ -3,6 +3,12 @@ git config --global user.email "email"
 
 git init
 git add .
-git remove add origin "url"
+git remote add origin "url"
 git commit -m "commit label"
 git push -u origin master
+
+
+from second push :
+git add .
+git commit -m "commit lable"
+git push
