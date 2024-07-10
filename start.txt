@@ -12,3 +12,6 @@ from second push :
 git add .
 git commit -m "commit lable"
 git push
+
+clone:
+git clone "url"
