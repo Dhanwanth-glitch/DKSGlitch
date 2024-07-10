@@ -25,3 +25,6 @@ to push to new brach:
 git add .
 git commit -m "commit label"
 git push -u origin branchname     #only for the frist push in that branch  then continue with >git push
+
+pull request:
+git pull "url"     #if cloned file is updated furture to get the update in your project you have to pull it
