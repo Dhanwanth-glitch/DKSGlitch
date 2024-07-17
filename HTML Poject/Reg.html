@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <style>
+        table{
+            background-color: aqua;
+            height: 75px;
+            width: 500px;
+        }
+        tr,table,td{
+            border: 3px solid white;
+            border-collapse: collapse;
+        }
+        td{
+            padding-left: 15px;
+        }
+        div{
+            margin: auto;
+            border: 0.5px solid lightgray;
+            width: fit-content;
+        }
+        button{
+            width: 30%;
+            height:45px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <table>
+            <caption style="color: red;background-color: lightyellow;border: 3px solid white;font-size: x-large;font-weight: bold">Registration Form</caption>
+            <form action="">
+                <tr>
+                    <td><label for="name">Enter Name</label></td>
+                    <td><input type="text" id="1" name="name" required></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Enter Password</label></td>
+                    <td><input type="text" id="2" name="password" required></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Enter Address</label></td>
+                    <td><textarea id="3" name="address" rows="5"></textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="game">Select Game</label></td>
+                    <td><input type="checkbox" id="4" name="game"><label for="game">Hockey</label><br>
+                        <input type="checkbox" id="5" name="game"><label for="game">Football</label><br>
+                        <input type="checkbox" id="6" name="game"><label for="game">Badminton</label><br>
+                        <input type="checkbox" id="7" name="game"><label for="game">Circket</label><br>
+                        <input type="checkbox" id="8" name="game"><label for="game">Volleyball</label></td> 
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender</label></td>
+                    <td><input type="radio" id="9" name="gender" required><label for="gender">Male</label>
+                        <input type="radio" id="10" name="gender"><label for="gender">Female</label></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Select ur age</label></td>
+                    <td><input type="number" id="11" name="age" placeholder="Select" required min="18" max="50" aria-required="true"></td>
+                </tr>
+                <tr>
+                    <td><label for="photo">Select Photo</label></td>
+                    <td><input type="file" id="12" name="photo"></td>
+                </tr>
+                <tr style="height: 50px;">
+                    <td colspan="2" style="text-align: center;"><button type="button">Click Me</button>
+                        <button type="reset">Reset</button>
+                        <button type="submit">Submit</button></td>
+                </tr>
+            </form>
+        </table>
+    </div>
+</body>
+</html>
